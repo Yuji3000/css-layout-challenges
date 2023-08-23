@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge_02</title>
+</head>
+<style type="text/css">
+	body{
+		height: 1000px;
+		margin: 0;
+	}
+  div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  }
+  .div1::before {
+    content: "div1";
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+  }
+  .div1 {
+    background-color: rgb(75, 73, 73);
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+  } 
+  .div2 {
+    width: 100px; 
+    height: 100px; 
+  }
+
+</style>
+<body>
+	<div class="div1">
+	  <div class="div2">div2</div>
+  </div>
+</body>
+</html>
